@@ -233,4 +233,7 @@ http://<grafana-ip>:3000
 ├── src/
 └── README.md
 
+# Screenshot 
+
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/9ae11d6f-cde6-4742-844b-b3d8e4194b4d" />
 
