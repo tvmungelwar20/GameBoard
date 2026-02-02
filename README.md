@@ -59,7 +59,7 @@ End-to-End DevSecOps CI/CD Pipeline with Security & Monitoring
 
 Project Overview: Designed and implemented an automated DevSecOps CI/CD pipeline using Jenkins and GitHub, integrating SonarQube (SAST), OWASP Dependency-Check, and Trivy to identify code quality issues, vulnerable dependencies, and container image vulnerabilities. Containerized the application using Docker and deployed using Kubernetes manifests, with continuous availability and performance monitoring via Prometheus, Blackbox Exporter, and Grafana to ensure reliable and secure deployments.
 
-Project Objectives:
+# Project Objectives:
 AWS EC2,
 Jenkins,
 Docker,
@@ -74,7 +74,7 @@ Blackbox Exporter,
 Grafana,
 GitHub,
 
-☁️ Stage 1: AWS Infrastructure Setup
+#  Stage 1: AWS Infrastructure Setup
 EC2 Instances Created
 Purpose	Instances
 Kubernetes Cluster	1 Master + 2 Worker Nodes
@@ -94,7 +94,7 @@ Security Group Ports:
 
 30000–32767 (Kubernetes NodePort)
 
-**☸️ Stage 2: Kubernetes Cluster Setup (All Nodes)
+# ☸️ Stage 2: Kubernetes Cluster Setup (All Nodes)
 
 Run on Master, Slave1, Slave2:
 
@@ -112,7 +112,7 @@ echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.
 sudo apt update
 sudo apt install -y kubeadm=1.28.1-1.1 kubelet=1.28.1-1.1 kubectl=1.28.1-1.1
 
-☸️ Stage 3: Initialize Kubernetes Master
+# ☸️ Stage 3: Initialize Kubernetes Master
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
 
 
@@ -133,13 +133,13 @@ Verify:
 
 kubectl get nodes
 
-🔐 Stage 4: Kubernetes Security Audit (Kubeaudit)
+# 🔐 Stage 4: Kubernetes Security Audit (Kubeaudit)
 wget https://github.com/Shopify/kubeaudit/releases/download/v0.22.2/kubeaudit_0.22.2_linux_amd64.tar.gz
 tar -xvzf kubeaudit_0.22.2_linux_amd64.tar.gz
 sudo mv kubeaudit /usr/local/bin
 kubeaudit all
 
-🔧 Stage 5: Install Jenkins, SonarQube & Nexus
+# 🔧 Stage 5: Install Jenkins, SonarQube & Nexus
 Docker Installation (All Tool Nodes)
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl
@@ -158,20 +158,16 @@ sudo chmod 666 /var/run/docker.sock
 🧪 SonarQube Setup
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
-
 Access:
-
 http://<sonarqube-ip>:9000
 
 📦 Nexus Repository Setup
 docker run -d --name nexus -p 9000:9000 sonatype/nexus3:latest
 
-
 Access:
-
 http://<nexus-ip>:9000
 
-🔄 Stage 6: Jenkins DevSecOps CI/CD Pipeline
+# 🔄 Stage 6: Jenkins DevSecOps CI/CD Pipeline
 Pipeline Features
 
 Git Checkout
@@ -199,4 +195,6 @@ Deployment Verification
 Email Notification
 
 ✔ Pipeline Status: SUCCESS
+
+
 
