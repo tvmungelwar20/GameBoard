@@ -54,8 +54,7 @@ This web application displays lists of board games and their reviews. While anyo
 
 
 
-# Project
-End-to-End DevSecOps CI/CD Pipeline with Security & Monitoring
+# End-to-End DevSecOps CI/CD Pipeline with Security & Monitoring
 
 Project Overview: Designed and implemented an automated DevSecOps CI/CD pipeline using Jenkins and GitHub, integrating SonarQube (SAST), OWASP Dependency-Check, and Trivy to identify code quality issues, vulnerable dependencies, and container image vulnerabilities. Containerized the application using Docker and deployed using Kubernetes manifests, with continuous availability and performance monitoring via Prometheus, Blackbox Exporter, and Grafana to ensure reliable and secure deployments.
 
