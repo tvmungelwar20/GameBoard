@@ -43,7 +43,6 @@ This web application displays lists of board games and their reviews. While anyo
 - Thymeleaf Fragments to reduce redundancy of repeating HTML elements (head, footer, navigation)
 
 ## How to Run
-
 1. Clone the repository
 2. Open the project in your IDE of choice
 3. Run the application
@@ -51,3 +50,27 @@ This web application displays lists of board games and their reviews. While anyo
   - username: bugs    |     password: bunny (user role)
   - username: daffy   |     password: duck  (manager role)
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
+
+
+
+
+# project
+End-to-End DevSecOps CI/CD Pipeline with Security & Monitoring
+
+Project Overview: Designed and implemented an automated DevSecOps CI/CD pipeline using Jenkins and GitHub, integrating SonarQube (SAST), OWASP Dependency-Check, and Trivy to identify code quality issues, vulnerable dependencies, and container image vulnerabilities. Containerized the application using Docker and deployed using Kubernetes manifests, with continuous availability and performance monitoring via Prometheus, Blackbox Exporter, and Grafana to ensure reliable and secure deployments.
+
+Project Objectives:
+AWS EC2
+Jenkins
+Docker
+Kubernetes (kubeadm)
+SonarQube
+Nexus Repository
+Maven
+Trivy
+Kubeaudit
+Prometheus
+Blackbox Exporter
+Grafana
+GitHub
+
