@@ -94,7 +94,7 @@ Security Group Ports:
 
 30000–32767 (Kubernetes NodePort)
 
-☸️ Stage 2: Kubernetes Cluster Setup (All Nodes)
+**☸️ Stage 2: Kubernetes Cluster Setup (All Nodes)
 
 Run on Master, Slave1, Slave2:
 
