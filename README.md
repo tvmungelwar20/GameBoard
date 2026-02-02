@@ -233,7 +233,15 @@ http://<grafana-ip>:3000
 ├── src/
 └── README.md
 
-# Screenshot 
+# Screenshots 
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/9ae11d6f-cde6-4742-844b-b3d8e4194b4d" />
+<img width="975" height="529" alt="image" src="https://github.com/user-attachments/assets/58c4fe06-bd69-494a-9c9f-9e72cd1fc053" />
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/6ffa4664-5d4e-4619-aa35-c646c3951ad0" />
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/76091623-cdf8-4d53-b079-a8e8624dd2ed" />
+<img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/a276a786-5b30-4dbf-bcd0-9ca41cdb0133" />
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/453ebb32-8597-4d38-90c7-aa20b15a14ae" />
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/7602d323-f43b-4571-b201-ea03d15b6087" />
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/e4de9335-9f27-4425-94c3-91098cc7e0e8" />
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/c63d0c82-edcb-4b3e-b283-c9accc38562b" />
 
