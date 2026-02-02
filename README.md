@@ -196,5 +196,41 @@ Email Notification
 
 ✔ Pipeline Status: SUCCESS
 
+# 📊 Stage 7: Monitoring with Prometheus, Blackbox Exporter & Grafana
+Blackbox Exporter
+
+Used to probe application endpoints and measure:
+
+HTTP availability
+
+Response time
+
+DNS lookup time
+
+SSL status
+
+Sample Target Probe
+- targets:
+  - http://13.126.244.39:31357
+
+Prometheus Targets Verification
+http://<prometheus-ip>:9090/targets
+
+Grafana Setup
+docker run -d -p 3000:3000 grafana/grafana
+
+Access:
+http://<grafana-ip>:3000
+
+# Project Structure
+.
+├── Jenkinsfile
+├── Dockerfile
+├── pom.xml
+├── deployment-service.yaml
+├── sonar-project.properties
+├── pipeline_script
+├── src/
+└── README.md
 
 
